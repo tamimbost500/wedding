@@ -1,0 +1,39 @@
+.pricing-area.m-pricing{
+    background-color: var(--deep-white);
+    .pricing-title{
+        h3, p{
+            color: var(--normal-green);
+        }
+    }
+}
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner h6{
+    color: var(--normal-green); 
+}
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner h3{
+    color: var(--normal-green);
+}
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner ul li span{
+    color: var(--normal-green);
+}
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner .pricing-btn a{
+    color: var(--normal-green);
+    border-color: var(--normal-green);
+}
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner:hover{
+    background-color: var(--normal-green);
+    h6, h3, a, span{
+        color: var(--deep-white);
+        border-color: var(--deep-white);
+        svg{
+            path{
+                fill: var(--deep-white);
+            }
+        }
+    }
+}
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner{
+    border-color: var(--normal-green);
+}
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner ul li span svg path{
+    fill: var(--normal-green);
+}

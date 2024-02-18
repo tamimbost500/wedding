@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+// Theme Font Family
+.heading-blak {
+    font-family: 'albrablack';
+    font-weight: normal;
+}
+
+.heading-bold {
+    font-family: 'albrabold';
+    font-weight: normal;
+}
+.heading-medium {
+    font-family: 'albramedium';
+    font-weight: normal;
+}
+.heading-light {
+    font-family: 'albralight';
+    font-weight: normal;
+}
+.heading-regular {
+    font-family: 'albraregular';
+    font-weight: normal;
+}
+.heading-semi {
+    font-family: 'albrasemi';
+    font-weight: normal;
+}
+.heading-textblack {
+    font-family: 'albra_textblack';
+    font-weight: normal;
+}
+.heading-textbold {
+    font-family: 'albra_textbold';
+    font-weight: normal;
+}
+.heading-textlight {
+    font-family: 'albra_textlight';
+    font-weight: normal;
+}
+.heading-textmedium {
+    font-family: 'albra_textmedium';
+    font-weight: normal;
+}
+.heading-textsemi {
+    font-family: 'albra_textsemi';
+    font-weight: normal;
+}
+.heading-regular {
+    font-family: 'albra_textregular';
+    font-weight: normal;
+}
+
+
+
+
+// Theme Color Palet
+:root {
+    --normal-green:#3D6059;
+    --normal-gery:#7B7B7B;
+    --foundation-green:#B4C1BF;
+    --deep-green:#0D3830;
+    --normal-pink:#F6F2EC;
+    --normal-white:#E7EBEA;
+    --normal-foundation-green:#5D7A74;
+    --submenu-bg-trans:#363333b8;
+    --deep-golden:#A67944;
+    --deep-white: #fff;
+    --bg-pink:#F1EEE9;
+    --foundation-gery:#90A3A0;
+    --normal-pink1:#E3D5C5;
+    --body-font:'Inter', sans-serif;
+    --heading-font:'albraregular', sans-serif;
+    --heading-font-light:'albralight', sans-serif;
+    --theme-reyar-font:'Mulish', sans-serif;
+}

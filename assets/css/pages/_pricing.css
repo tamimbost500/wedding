@@ -1,0 +1,31 @@
+.pricing-area.m-pricing {
+  background-color: var(--deep-white); }
+  .pricing-area.m-pricing .pricing-title h3, .pricing-area.m-pricing .pricing-title p {
+    color: var(--normal-green); }
+
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner h6 {
+  color: var(--normal-green); }
+
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner h3 {
+  color: var(--normal-green); }
+
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner ul li span {
+  color: var(--normal-green); }
+
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner .pricing-btn a {
+  color: var(--normal-green);
+  border-color: var(--normal-green); }
+
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner:hover {
+  background-color: var(--normal-green); }
+  .pricing-area.m-pricing .pricing-wrapper .pricing-inner:hover h6, .pricing-area.m-pricing .pricing-wrapper .pricing-inner:hover h3, .pricing-area.m-pricing .pricing-wrapper .pricing-inner:hover a, .pricing-area.m-pricing .pricing-wrapper .pricing-inner:hover span {
+    color: var(--deep-white);
+    border-color: var(--deep-white); }
+    .pricing-area.m-pricing .pricing-wrapper .pricing-inner:hover h6 svg path, .pricing-area.m-pricing .pricing-wrapper .pricing-inner:hover h3 svg path, .pricing-area.m-pricing .pricing-wrapper .pricing-inner:hover a svg path, .pricing-area.m-pricing .pricing-wrapper .pricing-inner:hover span svg path {
+      fill: var(--deep-white); }
+
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner {
+  border-color: var(--normal-green); }
+
+.pricing-area.m-pricing .pricing-wrapper .pricing-inner ul li span svg path {
+  fill: var(--normal-green); }

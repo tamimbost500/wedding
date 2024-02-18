@@ -1,0 +1,291 @@
+.services-title-meta{
+    margin-bottom: 25px;
+    p{
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%; /* 17.6px */
+        color: var(--deep-golden);
+        font-family: var(--body-font);
+        text-align: center;
+    }
+}
+.title-color-green{
+    h3, p, h5{
+        color: var(--normal-green);
+    }
+}
+.event-service-home-2 .event-service-wrapper .event-service-info .event-service-info-wrapper.title-color-green h5{
+    color: var(--normal-green);
+}
+.event-service-home-2 .event-service-wrapper .event-service-info .event-service-info-wrapper.title-color-green p{
+    color: var(--normal-green);
+}
+.event-service-home-2 .event-service-wrapper .event-service-info.m-event-service-info{
+    border: 1px solid;
+    border-color: rgba(148, 194, 184, 0.00);
+}
+.services-area{
+    padding: 120px 20px;
+    position: relative;
+    .m-services-wrapper{
+        margin-top: 55px;
+        .m-serviecs-inner{
+            position: relative;
+            &::before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 50%;
+                right: 50%;
+                transform: translateX(-50%);
+                background-color: var(--foundation-green);
+                width: 1px;
+                height: 100%;
+            }
+            .m-services-inner-shep-2{
+                clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+                width: 10px;
+                height: 10px;
+                background-color: var(--foundation-gery);
+                display: inline-block;
+                position: absolute;
+                left: 50%;
+                right: 50%;
+                transform: translateX(-47%);
+                top: -10px;
+            }
+            .services-number{
+                position: absolute;
+                left: 50%;
+                right: 50%;
+                top: 50%;
+                bottom: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 64px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 110%; /* 70.4px */
+                letter-spacing: -1.28px;
+                color: var(--foundation-green);
+                font-family: var(--heading-font);
+                border: 1px solid var(--foundation-green);
+                width: 100px;
+                height: 100px;
+                border-radius:50%;
+                text-align: center;
+                line-height: 100px;
+            }
+            .m-services-inner-content{
+                display: flex;
+                align-items: center;
+                gap: 243px;
+                position: relative;
+                .m-services-info{
+                    position: relative;
+                    overflow: hidden;
+                    .m-services-shep-1{
+                        position: absolute;
+                        right: 0;
+                        rotate: -15deg;
+                    }
+                    h4{
+                        font-size: 36px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 110%; /* 39.6px */
+                        letter-spacing: -0.72px;
+                        color: var(--normal-green);
+                        font-family: var(--heading-font);
+                        margin-bottom: 25px;
+                    }
+                    p{
+                        color: var(--normal-green);
+                        font-family: var(--body-font);
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 140%; /* 22.4px */
+                        margin-bottom: 33px;
+                    }
+                    ul{
+                        li{
+                            display: flex;
+                            gap: 10px;
+                            margin-bottom: 30px;
+                            &:last-child{
+                                margin-bottom: 0;
+                            }
+                            span{
+                                color: var(--normal-green);
+                                font-family: var(--body-font);
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 140%; /* 22.4px */
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+// Start Responsive
+@media (max-width:912px){
+    .services-area .m-services-wrapper .m-serviecs-inner .m-services-inner-content{
+        gap: 165px;
+    }
+    .services-area .m-services-wrapper .m-serviecs-inner .m-services-inner-content .m-services-info h4{
+        font-size: 25px;
+    }
+}
+@media (max-width:767px){
+    .services-area .m-services-wrapper .m-serviecs-inner .m-services-inner-content{
+        display: block;
+    }
+    .services-area .m-services-wrapper .m-serviecs-inner::before{
+        display: none;
+    }
+    .services-area .m-services-wrapper .m-serviecs-inner .services-number{
+        display: none;
+    }
+    .services-area .m-services-wrapper .m-serviecs-inner .m-services-inner-content .m-services-info{
+        margin-top: 35px;
+    }
+    .services-area .m-services-wrapper .m-serviecs-inner:nth-child(2) .m-services-inner-content .m-services-pic{
+        margin-bottom: 35px;
+    }
+    .services-area .m-services-wrapper .m-serviecs-inner:nth-child(2) .m-services-inner-content .m-services-info{
+        margin-bottom: 35px;
+    }
+}
+
+.m-services-area{
+    background-color: var(--deep-white);
+}
+.m-service-team{
+    background-color: var(--normal-pink);
+}
+
+
+// Start Faq Area
+.faq-area{
+    position: relative;
+    padding: 120px 20px;
+    .faq-wrapper{
+        margin-top: 60px;
+        /* accordion */
+
+.accordion {
+    max-width: 740px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:30px;
+    border-bottom: 1px solid;
+    border-color: var(--normal-green);
+    padding-top: 30px;
+    &:first-child{
+        padding-top: 0;
+    }
+
+  }
+  .accordion-header {
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+  }
+  
+  .accordion-header-content {
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+    padding: 10px 0 5px 0;
+  }
+  .accordion-header-content-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; 
+    letter-spacing: -0.48px;
+    color: var(--normal-green);
+    font-family: var(--heading-font);
+  }
+  .accordion-content {
+    padding: 10px 10px 10px 0;
+    position: relative;
+    overflow: hidden;
+  }
+  .accordion-content-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; 
+    color: var(--normal-green);
+    font-family: var(--body-font);
+  }
+  
+  /* accordion open effect */
+  
+  details summary {
+    cursor: pointer;
+    transition: all 225ms ease-out;
+    position: relative;
+  }
+  
+  details[open] summary {
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  details[open] .accordion-content {
+    margin-top: -27px;
+    margin-bottom: 25px;
+  }
+
+  /* remove marker */
+  
+  details > summary {
+      list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+      display: none;
+  }
+  /* custom marker */
+  
+  summary::after {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    font-size: 25px;
+    bottom: -8%;
+    transform: translateY(-50%);
+    color: var(--normal-green);
+  }
+  
+  details[open] summary::after {
+    content: '-';
+    position: absolute;
+    top: 50%;
+    bottom: -22%;
+    transform: translateY(-50%);
+    right: 15px;
+    color: var(--normal-green);
+}
+    }
+}
+
+// End Faq Area
+
+// Start Faq Responsive
+@media (max-width:450px){
+    .faq-area .faq-wrapper .accordion-header-content-title{
+        font-size: 18px;
+    }
+}
+// End Faq Responsive

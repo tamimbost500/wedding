@@ -1,0 +1,65 @@
+// Video Button Animation
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+
+// Start Image Rotate 
+@keyframes rotateIt {
+  to {
+    transform: rotate(-360deg);
+  }
+
+}
+
+
+// Start Mobile Menu Tabing Animation
+@keyframes mobilemenutabinganimation { 
+  0%
+    {
+      opacity: 0;
+      -webkit-transform: translateX(5%);
+      transform: translateX(5%);
+      }
+
+  50% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+// End Mobile Menu Tabing Animation
+
+// Start Home 1 Hero Button Animation
+@keyframes spin {
+  0% {
+      transform: rotate(0)
+  }
+
+  50% {
+      transform: rotate(180deg)
+  }
+
+  100% {
+      transform: rotate(360deg)
+  }
+}
+// End Home 1 Hero Button Animation
+
+// Start Marque Animation Home 1
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+// End Marque Animation Home 1

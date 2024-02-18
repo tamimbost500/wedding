@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@font-face {
+  font-family: 'Albra';
+  src: url("../fonts/AlbraTextSemi.woff2") format("woff2"), url("../fonts/AlbraTextSemi.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Albra';
+  src: url("../fonts/AlbraTextSemi.woff2") format("woff2"), url("../fonts/AlbraTextSemi.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Albra';
+  src: url("../fonts/AlbraTextSemi.woff2") format("woff2"), url("../fonts/AlbraTextSemi.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Albra';
+  src: url("../fonts/AlbraTextSemi.woff2") format("woff2"), url("../fonts/AlbraTextSemi.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Albra';
+  src: url("../fonts/AlbraTextSemi.woff2") format("woff2"), url("../fonts/AlbraTextSemi.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Albra';
+  src: url("../fonts/AlbraTextSemi.woff2") format("woff2"), url("../fonts/AlbraTextSemi.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap; }
+
+:root {
+  --normal-green:#3D6059;
+  --normal-gery:#7B7B7B;
+  --foundation-green:#B4C1BF;
+  --normal-white:#E7EBEA;
+  --deep-golden:#A67944;
+  --deep-white: #fff;
+  --body-font:'Inter', sans-serif;
+  --heading-font:'Albra', sans-serif; }

@@ -1,0 +1,51 @@
+.header-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100; }
+  .header-area .main-menu .menu-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 18px; }
+    .header-area .main-menu .menu-content .logo {
+      width: 33%; }
+    .header-area .main-menu .menu-content .menu-list {
+      width: 33%;
+      text-align: center; }
+      .header-area .main-menu .menu-content .menu-list ul li {
+        display: inline-block;
+        padding: 0 25px; }
+        .header-area .main-menu .menu-content .menu-list ul li a {
+          font-size: 16px;
+          font-family: var(--body-font);
+          font-style: normal;
+          font-weight: 400;
+          color: var(--normal-white);
+          line-height: 4.16px;
+          text-transform: capitalize;
+          -webkit-transition-timing-function: linear;
+          -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-duration: .3s;
+          -o-transition-duration: .3s;
+          transition-duration: .3s; }
+          .header-area .main-menu .menu-content .menu-list ul li a:hover {
+            color: var(--deep-golden); }
+    .header-area .main-menu .menu-content .menu-bar {
+      width: 33%;
+      text-align: end; }
+      .header-area .main-menu .menu-content .menu-bar a:hover svg rect {
+        fill: var(--deep-golden);
+        -webkit-transition-timing-function: linear;
+        -o-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-duration: .3s;
+        -o-transition-duration: .3s;
+        transition-duration: .3s; }

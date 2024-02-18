@@ -1,0 +1,289 @@
+.hero-area {
+  position: relative; }
+  .hero-area .hero-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-image: url("../images/hero-sldier/img-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    z-index: 1; }
+    .hero-area .hero-wrapper::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: -1; }
+    .hero-area .hero-wrapper .hero-content {
+      text-align: center; }
+      .hero-area .hero-wrapper .hero-content .hero-sub-title p {
+        font-family: var(--heading-font);
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 300;
+        line-height: 22px;
+        color: var(--normal-white);
+        position: relative;
+        display: inline-block; }
+        .hero-area .hero-wrapper .hero-content .hero-sub-title p::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          bottom: 50%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          width: 100px;
+          height: 1px;
+          background-color: var(--deep-golden);
+          right: -63%; }
+        .hero-area .hero-wrapper .hero-content .hero-sub-title p::before {
+          content: '';
+          position: absolute;
+          top: 50%;
+          bottom: 50%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+          width: 100px;
+          height: 1px;
+          background-color: var(--deep-golden);
+          left: -78px; }
+        .hero-area .hero-wrapper .hero-content .hero-sub-title p .sub-title-shep-1 {
+          width: 10px;
+          height: 10px;
+          background-color: var(--deep-golden);
+          display: inline-block;
+          position: absolute;
+          left: -46%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          top: 50%;
+          bottom: 50%;
+          -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+        .hero-area .hero-wrapper .hero-content .hero-sub-title p .sub-title-shep-2 {
+          width: 10px;
+          height: 10px;
+          background-color: var(--deep-golden);
+          display: inline-block;
+          position: absolute;
+          right: -46%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          top: 50%;
+          bottom: 50%;
+          -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+      .hero-area .hero-wrapper .hero-content .hero-title {
+        padding-top: 20px; }
+        .hero-area .hero-wrapper .hero-content .hero-title h1 {
+          font-size: 80px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: 88px;
+          letter-spacing: -1.6px;
+          color: var(--normal-white); }
+      .hero-area .hero-wrapper .hero-content .hero-btn {
+        padding-top: 60px; }
+      .hero-area .hero-wrapper .hero-content .hero-social-icons {
+        position: absolute;
+        left: 62px;
+        bottom: 62px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 25px; }
+        .hero-area .hero-wrapper .hero-content .hero-social-icons span a svg path {
+          -webkit-transition-timing-function: linear;
+          -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-duration: .3s;
+          -o-transition-duration: .3s;
+          transition-duration: .3s;
+          fill: var(--deep-white); }
+        .hero-area .hero-wrapper .hero-content .hero-social-icons span a:hover svg path {
+          fill: var(--deep-golden); }
+
+.about-area-home-3 {
+  background-color: var(--deep-white); }
+  .about-area-home-3 .about-area-home-3-content .title-home-3 {
+    text-align: center; }
+  .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 118px; }
+    .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content {
+      width: 40%; }
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment-discription {
+        padding-top: 80px; }
+    .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-middel-border-style {
+      width: 20%; }
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-middel-border-style .border-line {
+        background-color: var(--foundation-green);
+        width: 2px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative; }
+        .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-middel-border-style .border-line::after, .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-middel-border-style .border-line::before {
+          content: '';
+          width: 10px;
+          height: 10px;
+          background-color: var(--normal-green);
+          display: inline-block;
+          position: absolute;
+          -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+          left: 50%;
+          right: 50%;
+          -webkit-transform: translateX(-50%);
+          -ms-transform: translateX(-50%);
+          transform: translateX(-50%); }
+        .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-middel-border-style .border-line::after {
+          bottom: 0; }
+        .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-middel-border-style .border-line::before {
+          top: 0; }
+        .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-middel-border-style .border-line span {
+          width: 74px;
+          height: 1px;
+          position: absolute;
+          background-color: var(--foundation-green); }
+          .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-middel-border-style .border-line span.left-border {
+            top: 150px;
+            left: -74px; }
+            .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-middel-border-style .border-line span.left-border .border-line-left-shep {
+              top: 50%;
+              bottom: 50%;
+              -webkit-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%); }
+          .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-middel-border-style .border-line span.right-border {
+            bottom: 150px; }
+            .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-middel-border-style .border-line span.right-border .border-line-right-shep {
+              right: 0;
+              top: 50%;
+              bottom: 50%;
+              -webkit-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%); }
+          .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-middel-border-style .border-line span span {
+            width: 8px;
+            height: 8px;
+            background-color: var(--normal-green);
+            -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+            position: absolute; }
+    .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content {
+      width: 40%; }
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment-discription {
+        padding-bottom: 80px; }
+    .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment,
+    .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment {
+      position: relative; }
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment .huband-img-top-shep,
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment .huband-img-top-shep {
+        position: absolute;
+        left: -40px;
+        top: -48px; }
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment .huband-img-bottom-shep,
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment .huband-img-bottom-shep {
+        position: absolute;
+        right: 26px;
+        bottom: -50px;
+        rotate: 180deg; }
+    .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment-discription .about-f-husband,
+    .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment-discription .about-f-husband {
+      color: var(--normal-green);
+      font-size: 32px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 83.2px;
+      font-family: var(--heading-font);
+      text-transform: capitalize;
+      position: relative;
+      margin-left: 50px; }
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment-discription .about-f-husband::before,
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment-discription .about-f-husband::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+        background-color: var(--normal-green);
+        width: 30px;
+        height: 1px;
+        left: -25px; }
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment-discription .about-f-husband span,
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment-discription .about-f-husband span {
+        width: 8px;
+        height: 8px;
+        background-color: var(--normal-green);
+        display: inline-block;
+        position: absolute;
+        left: -10%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        top: 50%;
+        bottom: 50%;
+        -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); }
+    .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment-discription .about-info-f-husband,
+    .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment-discription .about-info-f-husband {
+      color: var(--normal-gery);
+      font-family: var(--body-font);
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; }
+    .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment-discription .social-media-about-home-3,
+    .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment-discription .social-media-about-home-3 {
+      padding-top: 35px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      gap: 20px; }
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment-discription .social-media-about-home-3 .about-home-3-socail-media-title,
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment-discription .social-media-about-home-3 .about-home-3-socail-media-title {
+        font-family: var(--heading-font);
+        color: var(--deep-golden);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; }
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment-discription .social-media-about-home-3 .around-icon,
+      .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment-discription .social-media-about-home-3 .around-icon {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        gap: 15px; }
+        .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment-discription .social-media-about-home-3 .around-icon span a svg path,
+        .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment-discription .social-media-about-home-3 .around-icon span a svg path {
+          -webkit-transition-timing-function: linear;
+          -o-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-duration: .3s;
+          -o-transition-duration: .3s;
+          transition-duration: .3s;
+          fill: var(--normal-gery); }
+        .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-left-content .husband-compliment-discription .social-media-about-home-3 .around-icon span a:hover svg path,
+        .about-area-home-3 .about-area-home-3-content .about-home-3-wrapper .about-right-content .husband-compliment-discription .social-media-about-home-3 .around-icon span a:hover svg path {
+          fill: var(--deep-golden); }

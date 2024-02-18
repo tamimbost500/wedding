@@ -1,0 +1,44 @@
+/*
+Theme Name: Cartmate - Fashion Store HTML Template
+Author: Mate_Themes
+Author URI: https://themeforest.net/user/mate_themes/
+Tags: fashion, ecommerce, furniture-store, store, online-store, html5 template
+Description: Crete - Personal Portfolio HTML5 Template. 
+Version: 1.0.0
+*/
+
+/************************************** base css **************************************/
+@import 'base/variables';
+@import 'base/mixin';
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/spacing';
+
+
+/******************************* theme css **********************************/
+@import 'theme/theme-class';
+@import 'theme/animations';
+
+
+/******************************** components ******************************/
+@import 'components/header';
+@import 'components/preloader';
+@import 'components/buttons';
+@import 'components/footer';
+@import 'components/product-cards';
+@import 'components/breadcrumb';
+@import 'components/sidebar';
+
+
+/****************************** page styles ******************************/
+@import 'pages/index-2';
+@import 'pages/index-3';
+@import 'pages/index';
+@import 'pages/about';
+@import 'pages/services';
+@import 'pages/services-details';
+@import 'pages/blog';
+@import 'pages/blog-details';
+@import 'pages/contact';
+@import 'pages/pricing';
+@import 'components/responsive';

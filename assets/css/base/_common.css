@@ -1,0 +1,47 @@
+/* Author CSS */
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--n-font); }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none; }
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus,
+.slick-slide {
+  outline: none; }
+
+button {
+  cursor: pointer; }
+
+img {
+  width: 100%;
+  height: auto;
+  display: block; }
+
+.container {
+  max-width: 1375px;
+  margin: 0 auto; }
+
+.social-media-icons {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: var(--color-orange); }
+
+.header-top-hm-1 h1 {
+  color: red; }
