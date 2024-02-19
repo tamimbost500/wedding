@@ -58,7 +58,7 @@
                         width: 100px;
                         height: 1px;
                         background-color: var(--deep-golden);
-                        left: -68px;
+                        left: -73px;
                     }
                     .sub-title-shep-1{
                         width: 10px;
@@ -253,11 +253,13 @@
                 position: absolute;
                 right: 0;
                 top: 23%;
+                z-index: 1;
             }
             .about-area-shep-2-bottom{
                 position: absolute;
                 bottom: -1%;
                 left: 25%;
+                z-index: 1;
             }
             .about-left-content{
                 width: 40%;

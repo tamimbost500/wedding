@@ -10,23 +10,20 @@
   }
 }
 
-// Start Image Rotate 
+// Start Image Rotate
 @keyframes rotateIt {
   to {
     transform: rotate(-360deg);
   }
-
 }
 
-
 // Start Mobile Menu Tabing Animation
-@keyframes mobilemenutabinganimation { 
-  0%
-    {
-      opacity: 0;
-      -webkit-transform: translateX(5%);
-      transform: translateX(5%);
-      }
+@keyframes mobilemenutabinganimation {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(5%);
+    transform: translateX(5%);
+  }
 
   50% {
     opacity: 1;
@@ -40,15 +37,15 @@
 // Start Home 1 Hero Button Animation
 @keyframes spin {
   0% {
-      transform: rotate(0)
+    transform: rotate(0);
   }
 
   50% {
-      transform: rotate(180deg)
+    transform: rotate(180deg);
   }
 
   100% {
-      transform: rotate(360deg)
+    transform: rotate(360deg);
   }
 }
 // End Home 1 Hero Button Animation
@@ -63,3 +60,16 @@
   }
 }
 // End Marque Animation Home 1
+
+// Start Header Sticky
+@keyframes stickyanimations {
+  0% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+// End Header Sticky

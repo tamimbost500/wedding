@@ -304,14 +304,12 @@
   // End Mobile Menu
 
   // Start Header Sticky Menu
-  $(document).ready(function () {
-    $(window).on("scroll", function () {
-      if ($(window).scrollTop()) {
-        $("header").addClass("header-sticky");
-      } else {
-        $("header").removeClass("header-sticky");
-      }
-    });
+  $(window).on("scroll", function() {
+    if (jQuery(this).scrollTop() > 0) {
+      $(".header-area").addClass("header-sticky");      
+    } else {
+      $(".header-area").removeClass("header-sticky");
+    }
   });
   // End Header Sticky Menu
 
@@ -355,7 +353,7 @@
   $(document).ready(function (){
   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
   ScrollSmoother.create({
-    smooth: 5, // how long (in seconds) it takes to "catch up" to the native scroll position
+    smooth: 3, // how long (in seconds) it takes to "catch up" to the native scroll position
     effects: true, // looks for data-speed and data-lag attributes on elements
     smoothTouch: 0.1, // much shorter smoothing time on touch devices (default is NO smoothing on touch devices)
   });
@@ -407,7 +405,7 @@
       scale: 1,
       x: 20,
       ease: "power2.out",
-      duration: 2.5,
+      duration: 0.1,
       stagger: {
         each: 0.3
       }
@@ -473,29 +471,28 @@
 
 
 
-  // let homeAgency = gsap.timeline();
-  // // Charchater Come long Animation
-  // let hero__title = document.querySelector(".heading__animation");
-  // // let hero__subtitle = document.querySelector(".hero__sub-title");
-  // let split_hero__title = new SplitText(hero__title, {
-  //   type: "chars"
-  // });
-  // homeAgency.from(split_hero__title.chars, {
-  //   duration: 1,
-  //   x: 70,
-  //   autoAlpha: 0,
-  //   stagger: 0.03,
-  // });
-  // homeAgency.from(
-  //   split_hero__subtitle.words, {
-  //     duration: 1,
-  //     x: 50,
-  //     autoAlpha: 0,
-  //     stagger: 0.01
-  //   },
-  //   "-=1"
-  // );
-
+  let homeAgency = gsap.timeline();
+  // Charchater Come long Animation
+  let hero__title = document.querySelector(".heading__animation");
+  // let hero__subtitle = document.querySelector(".hero__sub-title");
+  let split_hero__title = new SplitText(hero__title, {
+    type: "chars"
+  });
+  homeAgency.from(split_hero__title.chars, {
+    duration: 1,
+    x: 70,
+    autoAlpha: 0,
+    stagger: 0.03,
+  });
+  homeAgency.from(
+    split_hero__subtitle.words, {
+      duration: 1,
+      x: 50,
+      autoAlpha: 0,
+      stagger: 0.01
+    },
+    "-=1"
+  );
 
 
 new WOW().init();
